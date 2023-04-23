@@ -15,7 +15,7 @@ def get_weather(city_name):
     If there is an error fetching the data, returns False.
     """
     # Set up API key, base URL, and query parameters
-    api_key = "367b36b81e2a1c36ea6605b34fa2dd66"
+    api_key = "API_KEY"
     url = "https://api.openweathermap.org/data/2.5/weather"
     query_params = {
         'q': city_name,
